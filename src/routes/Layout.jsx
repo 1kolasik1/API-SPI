@@ -7,7 +7,7 @@ export default function Layout() {
       : "ml-0 font-bold sm:ease-out mx-[20px] font-regular text-gray-700 underline decoration-grey-400";
   return (
     <div className="min-h-screen">
-      <header className="flex justify-between bg-gray-900  sm:block bg-gray-900 pl-[20px] pr-[20px] pt-[30px] pb-[20px] h-[10vh] text-3xl">
+      <header className="flex justify-between bg-gray-900  sm:block  pl-[20px] pr-[20px] pt-[30px] pb-[20px] h-[10vh] text-3xl">
         <NavLink to="/albums" end={true} className={setActive}>
           Albums
         </NavLink>
